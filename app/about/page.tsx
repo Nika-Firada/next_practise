@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "Good info",
+};
 
 const page = () => {
   return (
-    <h1>About Page</h1>
+    <h3>Select subitem</h3>
   )
 }
 
